@@ -9,9 +9,8 @@ const maxTotal = function(arr) {
 
 
     let sum = 0
-    const filtered = numHigher.filter(el => el > numHigher[5]);
-    for(let i = 0; i < filtered.length; i++) {
-      sum += filtered[i]
+    for(let i = 0; i < 5; i++) {
+      sum += numHigher[i];
     }
 
     return sum
